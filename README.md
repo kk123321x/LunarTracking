@@ -1,3 +1,13 @@
+# Lunar Tracking
+The official implementation for the  paper \[[_NT-VOT211: A Large-Scale Benchmark for Night-time Visual Object Tracking_](www.google.com)\]
+
+## Abstract
+>Many existing visual object tracking benchmarks, such as TNL2k, TrackingNet, LaSOT, and GOT-10K, primarily
+focus on daytime scenarios. However, the challenge of tracking small targets in low-light conditions has not been sufficiently addressed. This limitation is due to the absence of a largescale, meticulously annotated nighttime benchmark that could rigorously evaluate tracking algorithms designed for tiny targets. To bridge this gap, we introduce Lunar Tracking, a groundbreaking benchmark tailored to assess the performance of visual object tracking algorithms on tiny objects under lowlight conditions. The Lunar Tracking benchmark comprises 700 diverse videos with over 600,000 annotated frames featuring tiny targets, making it the largest of its kind for nighttime tracking and tiny object tracking. We also introduce a novel tracking algorithm designed to enhance low-light conditions by innovatively treating the light enhancement task as a ’dehazing’ process and modeling it as a two-step diffusion process. Our proposed module has set a new state-of-the-art (SOTA) across the Lunar Tracking benchmark and four additional benchmarks by reversing the diffusion process in a step-by-step manner.
+
+## Download the dataset
+To facilitate downloading, we have divided the dataset into 65 parts, each 1GB in size：
+
 [LunarTracking 1/7](https://zenodo.org/records/14208796?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTczMjM2Mzc0MCwiZXhwIjo0ODYzMjgzMTk5fQ.eyJpZCI6ImMyNTU5YWI4LTFiYWEtNGY1MC05OGRlLTQ5MzgyN2M4MWVlMiIsImRhdGEiOnt9LCJyYW5kb20iOiIwMmEzMTIwZWJmNjE2NjlkZThlZjVlM2QzYjQ0OTAzMyJ9.UrJP8BYe_aj8gK98bvOhwCWPUIUbc2eYRYoe5ADayC-4s4bH3PH-KjRx6b8_SK3fvKvzWQvBQwDyol6C_f0JWw)
 
 [LunarTracking 2/7](https://zenodo.org/records/14209468?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTczMjM2NTg0MywiZXhwIjo0ODYzMjgzMTk5fQ.eyJpZCI6IjlhMjJjNmY2LWQxYmMtNDk0MS04MmRjLTgxMzQ3ODI0NjExNyIsImRhdGEiOnt9LCJyYW5kb20iOiJjMjc1MGU1Mjg5MGJhMzJmYzhmYTZlMTMxNmM4ZDQ2MyJ9.ngQabbPnuYyeEFEV1xO2RrHFYMGMROLGs-6kP4dFZLCccaNRNGgR3_xIz3gnMER-l4i0QitBHBSrbxjwc6xypw)
@@ -13,3 +23,6 @@
 
 
 [LunarTracking 7/7](https://zenodo.org/records/14211448?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTczMjQzOTk3NiwiZXhwIjo0ODYzMjgzMTk5fQ.eyJpZCI6IjExYTQyYmFkLTE1NDUtNGUyZi05ZTkzLTgxMmM3NmZmMjYyYSIsImRhdGEiOnt9LCJyYW5kb20iOiJjYTZiZWQwYzhmMzgzODdjZDdkYzFiMjI5YjU1NGI3YSJ9.avFBuGIQdrHHNakaGMEAXxVhYocm1ic6PyNYmMUn_fdegn5lZlnsBo7U1mRp57jWk0I7Zfqyns0w65LWk6psQw)
+
+## Run the code
+Please check this tutorial to run our code.
