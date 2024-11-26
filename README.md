@@ -26,3 +26,19 @@ To facilitate downloading, we have divided the dataset into 65 parts, each 1GB i
 
 ## Run the code
 Please check this tutorial to run our code.
+
+
+# Citation
+If you find our work valuable, please cite our paper.
+```bibtex
+
+
+
+
+
+```
+
+# Maintenance
+Please open a GitHub issue for any help. If you have any questions regarding the technical details, feel free to contact us.
+# License
+[MIT License](https://mit-license.org/)
