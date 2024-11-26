@@ -1,11 +1,3 @@
-# LoRAT
-The unofficial reproduction for the **ECCV 2024** paper [_Tracking Meets LoRA: Faster Training, Larger
-Model, Stronger Performance_](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00113.pdf) within the pytracking-like framework.  
-
-Official Link: https://github.com/LitingLin/LoRAT
-
-[[Models](https://pan.quark.cn/s/e71acbd77f77)] Extraction Code：4EeS  
-
 ## Install the environment
 ```
 conda create -n lorat python=3.9
@@ -24,31 +16,6 @@ After running this command, you can also modify paths by editing these two files
 lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
-
-## Data Preparation
-Put the tracking datasets in ./data. It should look like this:
-   ```
-   ${PROJECT_ROOT}
-    -- data
-        -- lasot
-            |-- airplane
-            |-- basketball
-            |-- bear
-            ...
-        -- got10k
-            |-- test
-            |-- train
-            |-- val
-        -- coco
-            |-- annotations
-            |-- images
-        -- trackingnet
-            |-- TRAIN_0
-            |-- TRAIN_1
-            ...
-            |-- TRAIN_11
-            |-- TEST
-   ```
 
 
 ## Training
