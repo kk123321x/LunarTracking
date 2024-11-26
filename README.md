@@ -26,7 +26,7 @@ To facilitate downloading, we have divided the dataset into 65 parts, each 1GB i
 [LunarTracking 7/7](https://zenodo.org/records/14211448?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTczMjQzOTk3NiwiZXhwIjo0ODYzMjgzMTk5fQ.eyJpZCI6IjExYTQyYmFkLTE1NDUtNGUyZi05ZTkzLTgxMmM3NmZmMjYyYSIsImRhdGEiOnt9LCJyYW5kb20iOiJjYTZiZWQwYzhmMzgzODdjZDdkYzFiMjI5YjU1NGI3YSJ9.avFBuGIQdrHHNakaGMEAXxVhYocm1ic6PyNYmMUn_fdegn5lZlnsBo7U1mRp57jWk0I7Zfqyns0w65LWk6psQw)
 
 ## Run the code
-Please check this [tutorial](https://github.com/kk123321x/LunarTracking/tree/main/LITE/main) to run our code. (This anonymous link didn't support page redirection, please check the content in the LITE folde )
+Please check this [tutorial](https://github.com/kk123321x/LunarTracking/tree/main/LITE) to run our code. (This anonymous link didn't support page redirection, please check the content in the LITE folde )
 
 # Acknowledgments
 The code borrows heavily from [PyTracking](https://github.com/visionml/pytracking).
